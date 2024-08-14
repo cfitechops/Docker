@@ -46,7 +46,7 @@ systemctl status docker.service
 docker –version
 ```
 
-**Containerd** is available as a daemon for Linux and Windows. It manages the complete container lifecycle of its host system, from image transfer from one place to another and storage to container execution (fetch the file from the storage if container required) and supervision to low-level storage to network attachments (data will flow from where?) and beyond.
-**Containerd** uses the OS kernel feature such as Namespace and Cgroups.
-**cgroups** (abbreviated from control groups) is a Linux kernel feature that limits, accounts for, and isolates the resource usage (CPU, memory, disk I/O, network, etc.) of a collection of processes.
-**A namespace** wraps a global system resource in an abstraction that makes it appear to the processes within the namespace that they have their own isolated instance of the global resource.
+- **Containerd** is available as a daemon for Linux and Windows. It manages the complete container lifecycle of its host system, from image transfer from one place to another and storage to container execution (fetch the file from the storage if container required) and supervision to low-level storage to network attachments (data will flow from where?) and beyond.
+- **Containerd** uses the OS kernel feature such as Namespace and Cgroups.
+- **Cgroups** (abbreviated from control groups) is a Linux kernel feature that limits, accounts for, and isolates the resource usage (CPU, memory, disk I/O, network, etc.) of a collection of processes.
+- **A namespace** wraps a global system resource in an abstraction that makes it appear to the processes within the namespace that they have their own isolated instance of the global resource.
