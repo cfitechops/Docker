@@ -15,7 +15,7 @@
 . What is Docker ?
 
 # ---IMAGE---
-
+ 
 ## Step 1: Remove already installed container engine.
 
 ```sh
