@@ -6,7 +6,7 @@
 docker run -it --name container1 ubuntu
 ```
 
-# Below commands need to te executed on container.
+**Below commands need to te executed on container.**
 
 ```sh
 apt-get update
