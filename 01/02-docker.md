@@ -96,7 +96,7 @@ ping 172.17.0.3
 > curl http://172.17.0.2
 ```
 
-###### LAB
+# LAB
 
 **How to create Image from DockerFile**
 
