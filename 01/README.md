@@ -15,7 +15,7 @@
 . What is Docker ?
 
 # ---IMAGE---
- 
+
 ## Step 1: Remove already installed container engine.
 
 ```sh
@@ -27,3 +27,9 @@ Execute below commands in order to install the Docker packages.
 ```sh
 yum remove docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-engine podman buildah -y
 ```
+
+## Step 2: yum install -y yum-utils
+
+**Why we need to install the yum-utils ?**
+
+**yum-utils:** is a collection of tools and programs for managing yum repositories, installing debug packages, source packages, extended information from repositories and administration.
