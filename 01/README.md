@@ -70,3 +70,6 @@ Changes to the global resource are visible to other processes that are members o
 - **Command Line:**
   Click to add text **docker –help**
   
+# ---IMAGE---
+
+# ---IMAGE---
