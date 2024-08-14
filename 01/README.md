@@ -67,6 +67,6 @@ Changes to the global resource are visible to other processes that are members o
 - **docker run ….** This command comes with docker-ce-cli package.
   When we execute any command, docker-ce will call containerd process.
   Containerd will call the runc.
-  **Command Line:**
+- **Command Line:**
   Click to add text
   docker –help
