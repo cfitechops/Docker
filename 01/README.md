@@ -50,3 +50,13 @@ docker –version
 - **Containerd** uses the OS kernel feature such as Namespace and Cgroups.
 - **Cgroups** (abbreviated from control groups) is a Linux kernel feature that limits, accounts for, and isolates the resource usage (CPU, memory, disk I/O, network, etc.) of a collection of processes.
 - **A namespace** wraps a global system resource in an abstraction that makes it appear to the processes within the namespace that they have their own isolated instance of the global resource.
+
+Changes to the global resource are visible to other processes that are members of the namespace but are invisible to other processes.
+
+- **Cgroups** = It limits how much you can use the memory, CPU, block I/O, network.
+- **Namespaces** = It limits what you can see (and therefore you can use).
+
+- **Docker-ce-cli** It provide command line interface for docker engine, community edition the open-source application container engine.
+  Docker containers are both hardware-agnostic and platform-agnostic.
+
+In an IT context, agnosticism refers to anything that is designed to be compatible across most common systems.
