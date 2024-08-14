@@ -33,3 +33,15 @@ yum remove docker docker-client docker-client-latest docker-common docker-latest
 **Why we need to install the yum-utils ?**
 
 **yum-utils:** is a collection of tools and programs for managing yum repositories, installing debug packages, source packages, extended information from repositories and administration.
+
+## Step 3: Need to add the repo file for Docker packages.
+
+```sh
+yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+yum install containerd.io docker-ce docker-ce-cli  -y
+cat /etc/yum.repos.d/docker-ce.repo
+systemctl enable docker.service
+systemctl start docker.service
+systemctl status docker.service
+docker –version
+```
