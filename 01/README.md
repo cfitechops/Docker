@@ -59,4 +59,14 @@ Changes to the global resource are visible to other processes that are members o
 - **Docker-ce-cli** It provide command line interface for docker engine, community edition the open-source application container engine.
   Docker containers are both hardware-agnostic and platform-agnostic.
 
-In an IT context, agnosticism refers to anything that is designed to be compatible across most common systems.
+- In an IT context, agnosticism refers to anything that is designed to be compatible across most common systems.
+
+- This means they can run anywhere, from your laptop to the largest cloud compute instance and everything in between - and they don't require you to use a particular language, framework or packaging system.
+
+- Docker is a product for you to build, ship and run any application as a lightweight container.
+- **docker run ….** This command comes with docker-ce-cli package.
+  When we execute any command, docker-ce will call containerd process.
+  Containerd will call the runc.
+  **Command Line:**
+  Click to add text
+  docker –help
