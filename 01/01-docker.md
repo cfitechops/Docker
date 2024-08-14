@@ -1,8 +1,10 @@
-# How to check the images downloaded?
+**How to check the images downloaded?**
 
+```sh
 docker image ls
+```
 
-# Difference between Create and RUN command?
+**Difference between Create and RUN command?**
 
 ```sh
 docker container create --name container1 -i ubuntu
@@ -30,7 +32,7 @@ df -h
 exit
 ```
 
-# here one can observed that with the help of "run" and "iT" option, we have not only created the container1 but also start and login into the container.
+**here one can observed that with the help of "run" and "iT" option, we have not only created the container1 but also start and login into the container.**
 
 ```sh
 docker container ls
@@ -38,19 +40,19 @@ docker container ls -a | grep container1
 docker container rm container1
 ```
 
-# Once we exit from the container, this container shutdown, why?
+**Once we exit from the container, this container shutdown, why?**
 
 ```sh
 docker container run -it --name container1 ubuntu bash
 ```
 
-# Now, this time, I am going to exit with CLT+P and CLT+Q button.
+**Now, this time, I am going to exit with CLT+P and CLT+Q button.**
 
 ```sh
 docker container ls
 ```
 
-# With ls option, it will show only the running container names. and with "-a" option for all.
+**With ls option, it will show only the running container names. and with "-a" option for all.**
 
 ```sh
 docker container rm -f container1
@@ -58,7 +60,7 @@ docker image ls
 date ; docker container run ubuntu:20.04 ; date  #very less time
 ```
 
-# Notice that we haven't given the name of our containter and Docker engine give us the fancy name.
+**Notice that we haven't given the name of our containter and Docker engine give us the fancy name.**
 
 ```sh
 docker container ls -a
