@@ -13,7 +13,7 @@ docker container ls -a | grep ubuntu
 
 docker container start container1
 
-docker container ls -a | grep ubuntu
+docker container ls -a 
 
 docker container attach container1
 
@@ -21,7 +21,7 @@ df -h
 
 exit
 
-docker container ls -a | grep ubuntu
+docker container ls -a 
 
 docker container rm container1
 
@@ -32,7 +32,7 @@ df -h
 exit
 ```
 
-**here one can observed that with the help of "run" and "iT" option, we have not only created the container1 but also start and login into the container.**
+**here one can observed that with the help of "run" and "it" option, we have not only created the container1 but also start and login into the container.**
 
 ```sh
 docker container ls
@@ -46,7 +46,7 @@ docker container rm container1
 docker container run -it --name container1 ubuntu bash
 ```
 
-**Now, this time, I am going to exit with CLT+P and CLT+Q button.**
+**Now, this time, we are going to exit with CLT+P and CLT+Q button.**
 
 ```sh
 docker container ls
