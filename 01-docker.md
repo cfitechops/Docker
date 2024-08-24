@@ -17,7 +17,7 @@ docker container ls -a
 
 docker container attach container1
 
-df -h
+df -h 
 
 exit
 
