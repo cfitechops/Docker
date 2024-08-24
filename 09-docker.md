@@ -9,7 +9,7 @@ docker run -d -it --name tmpt-container1 --mount type=tmpfs,destination=/app ngi
 
 docker container exec -it tmpt-container1 /bin/bash
 
-cd /app/
+cd /app/ 
 
 ls -ltr
 
