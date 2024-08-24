@@ -2,7 +2,7 @@
 
 **How to create Image from DockerFile**
 
-```sh
+```sh 
 mkdir /data
 
 cd /data/
