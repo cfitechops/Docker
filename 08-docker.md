@@ -16,7 +16,7 @@ cd /app/
 ls -ltr
 
 cat > file1.txt
-Hi
+Hi 
 This is my tes file from container Bmount-container1
 ^C
 
