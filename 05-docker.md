@@ -3,7 +3,7 @@
 ```sh
 docker network ls
 
-docker network inspect host
+docker network inspect host 
 
 docker container run -it -d --net host --name host-container1 mywebserver1
 
